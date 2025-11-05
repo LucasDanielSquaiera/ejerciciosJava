@@ -26,7 +26,8 @@ public class Ordenar3Numeros {
 		
 	
 		if (a >= b && a > c) {
-		if (b >= c) {
+		
+			if (b >= c) {
 			
 		System.out.println("El número " +a + " es mayor que " + b + "  y este es mayor que " + c);
 		} else {
