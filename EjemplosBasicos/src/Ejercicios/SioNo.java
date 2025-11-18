@@ -13,17 +13,11 @@ public class SioNo {
 		do {
 			System.out.println("¿Quieres continuar? (s/n)");
 			  
-			 opcion = leer.next();
+			 opcion = leer.nextLine().toLowerCase();
 			
-		} while((!opcion.equals("S")) || (!opcion.equals( "s"))  || (!opcion.equals("n"))  || (!opcion.equals("N")));
+		} while (!opcion.equalsIgnoreCase("s") && !opcion.equalsIgnoreCase("n"));
 		
-		
-
-		
-		
-		
-		
-		
+		System.out.println("Hay que revisar");
 		
 		leer.close();
 	}
