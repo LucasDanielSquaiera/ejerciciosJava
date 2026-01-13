@@ -6,7 +6,7 @@ public class Recursos {
 		return ((int)((Math.random()*hasta)+1));
 	}
 	
-	public static void mostrarRaiz(int [][] matriz) {
+	public static void mostrarMatriz(int [][] matriz) {
 		for (int i = 0; i<matriz.length;i++) {
 			for(int j = 0; j<matriz[0].length; j++) {
 				System.out.print(matriz[i][j] + "\t ");

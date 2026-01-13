@@ -15,7 +15,7 @@ public class SumaFilasyColumnas {
 		int [][] matriz = new int [fila][columna];
 		
 		Recursos.rellenarMatrizAleatoria(matriz, 10);
-		Recursos.mostrarRaiz(matriz);
+		Recursos.mostrarMatriz(matriz);
 
 		//recorremos por filas
 		for (int i = 0; i<matriz.length; i++) {
